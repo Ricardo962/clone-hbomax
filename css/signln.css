@@ -1,0 +1,125 @@
+@import url("styles.css");
+@import url("scrollbar.css");
+
+body{
+    background: var(--primary-color) url(/assets/background-movies-series.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav.menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: var(--nav-bg-color);
+}
+nav.menu > a >  img.logo{
+    width: 9.9rem;
+}
+nav.menu > div.botoes__menu{
+    display: flex;
+    align-items: center;
+    gap: 13px
+}
+nav.menu > div.botoes__menu > a.menu_item{
+    color:var(--text-color);
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+nav.menu > div.botoes__menu > a.menu_item.color{
+    padding: .7rem 1.5rem;
+    border-radius: 18px;
+    text-transform: uppercase;
+    background-color: var(--tertiary-color);
+    transition: ease-in-out .4s;
+}
+nav.menu > div.botoes__menu > a.menu_item.color:hover{
+    color: var(--btn-link-color);
+    background: var(--text-color);
+}
+
+main.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+}
+form.login.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background: var(--form-bg-color);
+    border-radius: 6px;
+    height: 80%;
+    width: min(88vw, 100%);
+    max-width: 800px;
+    padding: 24px;
+}
+form.login.container > h3{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+form.login.container > label.login_label{
+    font-size: .9rem;
+}
+form.login.container > input.login_field{
+    background: var(--form-field-bg-color);
+    color: var( --form-field-placeholder);
+    height: 50px;
+    border-radius: 8px;
+    padding: 15px;
+    border :1px solid rgba(255, 255, 255, 0.7);
+}
+form.login.container > input.login_field::placeholder{
+    color: var(--form-field-placeholder);
+} 
+form.login.container > input.login_field:invalid{
+    border-color: red;
+}
+form.login.container > div.login_actions{
+    margin-top: 35px;
+}
+form.login.container > div.login_actions > button.button{
+    color: var(--text-color);
+    border: none; 
+    border-radius: 18px;
+    padding: .9rem;
+    width: 8rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-right: 1.5rem;
+    transition: all .8s ease;
+    position: relative;
+    cursor: pointer;
+}
+form.login.container > div.login_actions > a.login_link{
+    color: var(--link-color);
+    font-weight: 700;
+}
+form.login.container > div.login_actions > button.button.button_gradient{
+    background: var(--btn-bg-color-gradient);
+    outline: 3px solid transparen;
+    transition: background 1s, outline 1s, transform 1s;
+    background-size: 250%;
+}
+form.login.container > div.login_actions > button.button.button_gradient:hover{
+    background-color: transparent;
+    background-position: 100%;
+    outline: 2px solid var(--secondary-color);
+    transform: scale(1.05);
+}
+
+
+
+
+
