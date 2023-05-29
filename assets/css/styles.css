@@ -257,6 +257,7 @@ section#contents > div.contents_container > div.contents_cards{
     background-position: center;
     border: 2px solid transparent;
     transition: ease-in-out .7s;
+    cursor: pointer;
 }
 section#contents > div.contents_container > div.contents_cards:hover{
     transform: scale(1.05);
