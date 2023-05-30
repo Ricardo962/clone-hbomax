@@ -268,22 +268,22 @@ section#contents  > div.contents_container > div.contents_cards:hover .content_i
     transition: 2s;
 }
 section#contents > div.contents_container > div.contents_cards:nth-child(1):hover{
-    background-image: url(/assets/img/hbo-hover_0.webp);
+    background-image: url(../img/hbo-hover_0.webp);
 }
 section#contents > div.contents_container > div.contents_cards:nth-child(2):hover{
-    background-image: url(/assets/img/MAX-Hover.webp);
+    background-image: url(../img/MAX-Hover.webp);
 }
 section#contents > div.contents_container > div.contents_cards:nth-child(3):hover{
-    background-image: url(/assets/img/DC-Hover.webp);
+    background-image: url(../img/DC-Hover.webp);
 }
 section#contents > div.contents_container > div.contents_cards:nth-child(4):hover{
-    background-image: url(/assets/img/WB-Hover.webp);
+    background-image: url(../img/WB-Hover.webp);
 }
 section#contents > div.contents_container > div.contents_cards:nth-child(5):hover{
-    background-image: url(/assets/img/CN-Hover.png);
+    background-image: url(../img/CN-Hover.png);
 }
 section#contents > div.contents_container > div.contents_cards:nth-child(6):hover{
-    background-image: url(/assets/img/UCL-Hover.webp);
+    background-image: url(../img/UCL-Hover.webp);
 }
 section#contents > div.contents_container > div.contents_cards > img{
     width: 100%;

@@ -2,7 +2,7 @@
 @import url("scrollbar.css");
 
 body{
-    background: var(--primary-color) url(/assets/img/background-movies-series.png) no-repeat center;
+    background: var(--primary-color) url(../img/background-movies-series.png) no-repeat center;
     background-size: cover;
     height: 100vh;
 }
